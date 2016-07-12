@@ -1,0 +1,10 @@
+// 字符串转XML
+String xmlStr = /"....../";
+Document document = DocumentHelper.parseText(xmlStr);
+// XML转字符串
+Document document = ...;
+String text = document.asXML();
+//将二进制变成指定位置的文件内容
+   byte[] bytes = fromHexString( hexString );  
+        OutputStream os=new FileOutputStream("d:\a.data");  
+          os.write(bytes); 
